@@ -24,7 +24,7 @@ router.get("/findById/:id", controllers.findById);
 module.exports = router;
 ```
 
-**The controller from the apis of the users table is imported in this example and each function corresponding to each request is passed as parameters.
+**The controller from the apis of the users table is imported in this example and each function corresponding to each request is passed as parameters.**
 
 **Thus, in each controller it receives the `request` and` response` parameters and is responsible for receiving what the client sends and once it does this, well, it responds. And the model, each model is in charge of making its respective queries in the database.**
 
